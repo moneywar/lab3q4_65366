@@ -11,6 +11,9 @@ int main() {
 		printf("Enter number : ");
 		scanf("%d",&input);
 	}while (input > 0);
+	if (count == 0) {
+		count++;
+	}
 	printf("Summation : %d\n",sum);
 	printf("Average : %.6f",sum*1.0/count);
 	return 0;
